@@ -1,16 +1,18 @@
 import React from 'react'
 
 import Header from './Header'
-import Studio from './Studio'
+// import Studio from './Studio'
+import ConfiguratorContainer from './ConfiguratorContainer'
 import Footer from './Footer'
 
-class App extends React.Component {
+import * as actions from '../actions'
 
+class App extends React.Component {
 	render() {
 		return (
 			<div>
 				<Header />
-				<Studio />
+				<ConfiguratorContainer />
 				<Footer />
 			</div>
 		)
